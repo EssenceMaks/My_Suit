@@ -25,3 +25,13 @@
 	border-radius: 30px;
 	background-image: url('congruent_pentagon.png');
 }
+.container-fluid{
+	background-image: url('congruent_pentagon.png');
+}
+.container{
+	background-image: url('congruent_pentagon.png');
+}
+
+.container{
+	background-image:  url(image_path('congruent_pentagon.png'));
+}
