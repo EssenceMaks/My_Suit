@@ -33,5 +33,5 @@
 }
 
 .container{
-	background-image:  url(image_path('congruent_pentagon.png'));
+	background-image:  url('congruent_pentagon.png');
 }
