@@ -23,10 +23,5 @@
 	margin-right: 10%;
 	margin-top: 50px;
 	border-radius: 30px;
-	background-image:  url('/assets/images/congruent_pentagon.png');
-	
 	background-image: url('congruent_pentagon.png');
-}
-.navbar-static-top{
-	background-image:  congruent_pentagon.png
 }
