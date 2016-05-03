@@ -13,16 +13,15 @@
  *= require_tree .
  *= require_self
  */
-.navbar-brand{
-	border-radius: 300px;
 
-}
+
 .head{
 	
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 50px;
 	border-radius: 30px;
+	height: ;
 	background-image: url('congruent_pentagon.png');
 }
 .container-fluid{
@@ -31,7 +30,14 @@
 .container{
 	background-image: url('congruent_pentagon.png');
 }
+.navbar-header{
+	position: relative;
+	margin-left: 10%;
+}
+.name{
 
-.container{
-	background-image:  url('congruent_pentagon.png');
+}
+.nava-right{
+	position: relative;
+	position: right;
 }
