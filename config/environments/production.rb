@@ -17,6 +17,7 @@ config.cache_classes = true
 config.serve_static_files = true
 config.assets.compile = true
 config.assets.digest = true
+config.assets.initialize_on_precompile = false
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
   # For large-scale production use, consider using a caching reverse proxy like
