@@ -16,7 +16,7 @@ Rails.application.configure do
 
 #config.cache_classes = true
 
-#config.assets.initialize_on_precompile = false
+
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
@@ -29,6 +29,7 @@ Rails.application.configure do
   config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
 config.serve_static_files = true
 config.serve_static_files = true
+config.assets.initialize_on_precompile = false
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
