@@ -37,52 +37,51 @@
     <![endif]-->
   </head>
   <body class="body">
-
-  <header>  
-    <div class="head">
-      <div class="row head-row">
-          <div class="col-xs-2 col-md-2">
-            <div class="div-ava">
-              <a  class="ava"><%= link_to(image_tag("MYfoto.JPG", :title => "Back to Welcome Page", :class => "ava"), root_path)%></a>
-             </div></div>
-          <div class="col-xs-4 col-md-4"><p title="Максим Кияница"><span class="name" >  Maxim Kyianytsia</span></p><p><span class="name" style="font-size: 20px;">  Maximus Smile</span></p></div>
-          
-          <div class="col-xs-6 col-md-6">
-            <ul class="nav navbar-nav navbar-right contact">
-                  <li><div class="phone"><br><br><span class="number-Phone"> +38(063)7175554 |</span></div></li>
-                  <li><a href="https://www.facebook.com/maximus.smile" target="_blank" class=" div1"><%= image_tag("fb.png", :title => "My Facebook", :class => "ava1")%><span class="name"></span></a></li>
-                  <li><a href="https://ua.linkedin.com/in/maxim-kyianytsia-6aa08394" target="_blank" class=" div1"><%= image_tag("in.png", :title => "My Linkedin", :class => "ava1")%><span class="name"></span></a></li>
-                  <li><a href="https://github.com/MaximuSSmile" target="_blank" class=" div1"><%= image_tag("github.png", :title => "My GitHub", :class => "ava1")%><span class="name"></span></a></li>
-                  <li><a class=" div1"><%= image_tag("skype.png", :title => "Maximusfury", :class => "ava1")%><span class="name"></span></a ></li>
-            </ul>
-          </div>
+    <header>  
+      <div class="head">
+        <div class="row head-row">
+            <div class="col-xs-2 col-md-2">
+              <div class="div-ava">
+                <a  class="ava"><%= link_to(image_tag("MYfoto.JPG", :title => "Back to Welcome Page", :class => "ava"), root_path)%></a>
+               </div></div>
+            <div class="col-xs-4 col-md-4"><p title="Максим Кияница"><span class="name" >  Maxim Kyianytsia</span></p><p><span class="name" style="font-size: 20px;">  Maximus Smile</span></p></div>
+            
+            <div class="col-xs-6 col-md-6">
+              <ul class="nav navbar-nav navbar-right contact">
+                    <li><div class="phone"><br><br><span class="number-Phone"> +38(063)7175554 |</span></div></li>
+                    <li><a href="https://www.facebook.com/maximus.smile" target="_blank" class=" div1"><%= image_tag("fb.png", :title => "My Facebook", :class => "ava1")%><span class="name"></span></a></li>
+                    <li><a href="https://ua.linkedin.com/in/maxim-kyianytsia-6aa08394" target="_blank" class=" div1"><%= image_tag("in.png", :title => "My Linkedin", :class => "ava1")%><span class="name"></span></a></li>
+                    <li><a href="https://github.com/MaximuSSmile" target="_blank" class=" div1"><%= image_tag("github.png", :title => "My GitHub", :class => "ava1")%><span class="name"></span></a></li>
+                    <li><a class=" div1"><%= image_tag("skype.png", :title => "Maximusfury", :class => "ava1")%><span class="name"></span></a ></li>
+              </ul>
+            </div>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
 <br>
     <div class="container">
       <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-10">
           <%= bootstrap_flash %>
           <%= yield %>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-2">
           <div class="well sidebar-nav">
-            <h3>Sidebar</h3>
+            <h3>Maximus Stories</h3>
             <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
+              <li class="nav-header">About</li>
               <p>  Maxim Kyianytsia</p>
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+              <li><%= link_to "Projects", "/path1"  %></li>
+              <li><%= link_to "Objectives", "/path2"  %></li>
+              <li><%= link_to "Hobbies", "/path3"  %></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
       </div><!--/row-->
 
       <footer>
-        <p>&copy; Company 2016</p>
+        <p>&copy; Create by Maxim Kyianytsia (Maximus Smile)</p>
       </footer>
 
     </div> <!-- /container -->
