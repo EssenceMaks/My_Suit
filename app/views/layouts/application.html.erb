@@ -37,13 +37,13 @@
     <![endif]-->
   </head>
   <body class="body">
-    <header>  
-      <div class="head">
+    
         <div class="row head-row">
             <div class="col-xs-2 col-md-2">
-              <div class="div-ava">
+              <div class="div-ava ">
                 <a  class="ava"><%= link_to(image_tag("MYfoto.JPG", :title => "Back to Welcome Page", :class => "ava"), root_path)%></a>
-               </div></div>
+              </div>
+            </div>
             <div class="col-xs-4 col-md-4"><p title="Максим Кияница"><span class="name" >  Maxim Kyianytsia</span></p><p><span class="name" style="font-size: 20px;">  Maximus Smile</span></p></div>
             
             <div class="col-xs-6 col-md-6">
@@ -56,8 +56,7 @@
               </ul>
             </div>
         </div>
-      </div>
-    </header>
+
 
 <br>
     <div class="container">
@@ -72,9 +71,9 @@
             <ul class="nav nav-list">
               <li class="nav-header">About</li>
               <p>  Maxim Kyianytsia</p>
-              <li><%= link_to "Projects", "/path1"  %></li>
-              <li><%= link_to "Objectives", "/path2"  %></li>
-              <li><%= link_to "Hobbies", "/path3"  %></li>
+              <li><%= link_to "Projects", root_path  %></li>
+              <li><%= link_to "Objectives", root_path  %></li>
+              <li><%= link_to "Hobbies", root_path  %></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
