@@ -1,6 +1,6 @@
 class MySuitsController < ApplicationController
 		def welcome
-			@title = 'HELLO WORL:D'
+			@title = 'HELLO WORL :D'
 		end
 
 		def about_us
@@ -8,6 +8,6 @@ class MySuitsController < ApplicationController
 		end
 
 		def hello
-			@title = 'HELLO WORL:D'
+			@title = 'HELLO WORL :D'
 		end
 end
